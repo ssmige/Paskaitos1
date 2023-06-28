@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="uzduotis 1.css" />
+  </head>
+  <body>
+    <form action="https://formspree.io/f/xoqoadeb" method="post">
+      <h1>Payment form</h1>
+      <p>Requied fields are followes by *</p>
+      <h2>Contact information</h2>
+      <fieldset>
+        <legend>Title</legend>
+
+        <input id="title-mister" type="radio" name="title" value="Mister" />
+        <label for="title-mister">Mister</label>
+        <br />
+        <input id="title-miss" type="radio" name="title" value="Miss" />
+        <label for="title-miss">Miss</label>
+      </fieldset>
+      <label for="">Name *</label>
+      <input id="name" type="text" required name="name" />
+      <br />
+      <label for="email">Email *</label>
+      <input id="email" name="email" type="email" required />
+      <br />
+      <label for="password">Password *</label>
+      <input
+        id="password"
+        name="password"
+        type="password"
+        required
+        minlength="5"
+      />
+      <h2>Payment information</h2>
+      <label for="cardType">Card type</label>
+      <select name="cardType" id="cardType">
+        <option value="visa">Visa</option>
+        <option value="mastercard">MasterCard</option>
+      </select>
+      <br />
+      <label for="cardNumber">Card number *</label>
+      <input
+        type="number"
+        min="1000000000000000"
+        max="9999999999999999"
+        id="cardNumber"
+        name="cardNumber"
+        required
+      />
+      <br />
+      <label for="expirationDate"> Expiration date *</label>
+      <input type="date" required id="expirationDate" />
+      <br />
+      <label class="margin-label" for="expirationDate"
+        ><i>formated as mm/yy</i></label
+      >
+      <br />
+      <button type="submit">Validate the payment</button>
+    </form>
+  </body>
+</html>

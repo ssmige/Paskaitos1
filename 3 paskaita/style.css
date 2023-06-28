@@ -1,0 +1,20 @@
+/* koda skaito nuo virsaus i apacia, paskutinis atributas atsispindi */
+/* silpniausias selektrorius cia komentaras */
+  p {
+    font-size: 30px;
+    color: red;
+     } 
+
+   /*klasikinis selektroius stipresnis uz taga  */
+.paragrafas {
+    color: green;
+}
+/* id selektorius stiprenis uz klasikini */
+#paragrafas {
+  color: rgb(27, 55, 37);
+}
+.antra-klase{
+    color: tomato;
+    border: 2px solid black
+}
+body{background-color: blue;}

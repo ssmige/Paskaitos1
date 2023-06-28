@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="nd-10 paskaita.css" />
+  </head>
+  <body>
+    <form action="" method="post">
+      <main>
+        <h1>Register to Fancy Form</h1>
+        <p>All fields are <span>required</span> unless marked as "optional"</p>
+
+        <label for="read-only">Your unique ID that you can't change</label
+        ><br />
+        <input
+          id="read-only"
+          type="text"
+          name="read-only"
+          value="YBX0123"
+          readonly
+        />
+        <br />
+        <label for="email">Email:</label>
+        <br />
+        <input
+          class="box-style"
+          type="email"
+          name="email"
+          id="email"
+          required
+        />
+        <br />
+        <label for="password">Password:</label>
+        <br />
+        <input
+          class="box-style"
+          type="password"
+          name="password"
+          id="password"
+          required
+          minlength="5"
+        />
+        <br />
+        <label for="age">Age:</label>
+        <br />
+        <input
+          class="box-style"
+          id="age"
+          type="number"
+          min="18"
+          max="65"
+          required
+        />
+        <br />
+        <label for="tellAbout"
+          >Tell us a little about yourself (optional):</label
+        >
+        <br />
+        <textarea
+          class="box-style"
+          name="tellAbout"
+          id="tellAbout"
+          cols="20"
+          rows="2"
+        ></textarea>
+        <br />
+        <input type="checkbox" name="Iagree" id="Iagree" />
+        <label for="Iagree">I agree with the Terms & Conditions</label><br />
+        <br />
+        <button type="submit">Register</button>
+      </main>
+    </form>
+  </body>
+</html>

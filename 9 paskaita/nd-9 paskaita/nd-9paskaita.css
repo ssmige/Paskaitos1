@@ -1,0 +1,35 @@
+body {
+  background-image: url(https://images.unsplash.com/photo-1553152531-b98a2fc8d3bf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGRlc2VydCUyMHJvYWR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+* {
+  box-sizing: border-box;
+}
+form {
+  width: 700px;
+  height: 450px;
+  background-color: rgb(189, 188, 188);
+  padding: 2rem;
+  margin: auto;
+  margin-top: 3rem;
+}
+hr {
+  color: black;
+}
+input {
+  background-color: rgb(189, 188, 188);
+  border: none;
+}
+input {
+  color: rgb(65, 64, 64);
+  font: bold;
+}
+button {
+  width: 150px;
+  background-color: black;
+  color: white;
+  border-color: black;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}

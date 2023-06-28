@@ -1,0 +1,53 @@
+p {
+  color: red;
+}
+p:hover {
+  color: blue;
+  background-color: bisque;
+}
+input[type="text"] {
+  border: 2px solid blue;
+}
+input[type="text"]:focus {
+  background-color: blanchedalmond;
+}
+input[type="checkbox"] {
+  border: 2px solid red;
+  background-color: red;
+  color: red;
+  accent-color: red;
+}
+input[type="checkbox"]:checked {
+  background-color: blueviolet;
+}
+input[type="numer"] {
+  background-color: azure;
+}
+
+input[type="numer"]:didable {
+  border: 2px solid grey;
+}
+input:required {
+  width: 200px;
+}
+input:optional {
+  height: 40px;
+}
+a:active {
+  color: red;
+}
+a:link {
+  color: aqua;
+}
+a:visited {
+  color: brown;
+}
+.number-imput:in-range {
+  background-color: green;
+}
+.number-imput:out-of-range {
+  background-color: red;
+}
+
+:read-only {
+}

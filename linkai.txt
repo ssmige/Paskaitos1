@@ -1,0 +1,6 @@
+https://github.com/Marius-code-academy/htmlcss-class-material/tree/main/Paskaita%202
+
+
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+https://placehold.co/

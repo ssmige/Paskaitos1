@@ -1,0 +1,52 @@
+header{
+    background-color: black;
+    text-align: center;
+}
+main {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.text-center {
+    text-align: center;
+}
+.text-left {
+    padding-left: 0;
+}
+.text-right {
+    text-align: right;
+}
+.img-logo{
+
+    max-height: 150px;
+}
+.text-white {
+color: white;    
+}
+.link {
+
+    text-decoration: none;
+    color: white;
+   background-color: rgb(202, 161, 24);
+}
+p{
+    text-align: justify;
+    
+}
+.table {
+    border-collapse: collapse;
+    background-color: rgb(25, 25, 163);
+  
+}
+th, td {
+    border: 1px solid rgb(116, 6, 6);
+    padding: 2 rem;
+
+   
+}
+footer {
+    background: 10rem rgb(202, 161, 24);
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+}

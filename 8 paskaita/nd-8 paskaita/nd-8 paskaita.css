@@ -1,0 +1,60 @@
+div {
+    background-color: rgb(40, 43, 58);
+    color: rgb(228, 228, 33);
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+h1 > span {
+    color: rgb(51, 190, 224);
+}
+   img {
+    border-radius: 10px;
+    
+   }
+h5 {color: rgb(179, 95, 95);}
+ 
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(172, 168, 165);
+    
+  }
+  .eilute-1 {
+    color: rgb(172, 168, 165);;
+  }
+
+td {
+    background-color: rgb(52, 65, 77);
+   padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+td:nth-child(2){
+    text-align: left;
+    padding-right: 2rem;
+}
+td:last-child, td:nth-last-child(2)
+{ text-align: left;
+    padding-right: 3rem;
+}
+td:first-child {
+    color: brown;
+}
+button{
+    width: 1.5rem;
+   text-align: center;
+   color:white ;
+   border-radius: 2px;
+  
+}
+.win {background-color: green;
+}
+.draw {
+    background-color: yellow;
+}
+.loss {
+    background-color: red;
+}
+button:only-of-type P {color: rgb(24, 78, 24);}

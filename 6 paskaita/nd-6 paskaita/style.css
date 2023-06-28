@@ -1,0 +1,37 @@
+html{
+    font-family: 'Roboto', sans-serif;
+   
+    }
+    header {margin-left: 250px;
+    } 
+        
+aside{
+    background-color: #24282c;
+    color: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 200px;
+    padding: 1rem;  
+}
+hr{
+    border-top: 1px solid #111111;
+    border-bottom: 1px solid #353535;
+}
+.grey-text {
+    color: gray;
+}
+
+aside > ul > li:not(:first-child)::marker{
+    color: transparent;
+}
+
+
+dl {
+    list-style: none;
+       font-size: 90%;
+    padding-left: 2rem;
+  
+
+}3

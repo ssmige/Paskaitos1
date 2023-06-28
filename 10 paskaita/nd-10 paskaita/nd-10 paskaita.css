@@ -1,0 +1,67 @@
+* {
+  background-color: darkslategrey;
+  box-sizing: border-box;
+  text-align: center;
+}
+h1,
+p,
+label {
+  color: #c8d0d0;
+}
+
+p {
+  font-size: large;
+}
+
+span {
+  background-color: rgb(193, 114, 212);
+}
+input:read-only {
+  background-color: rgb(175, 173, 173);
+  border-top: 2px solid rgb(71, 69, 69);
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  border-left: 2px solid rgb(71, 69, 69);
+  color: black;
+  margin-top: 0.1rem;
+}
+
+input {
+  color: black;
+  font-size: medium;
+  text-align: left;
+}
+.box-style {
+  background-color: white;
+  border: 2px solid red;
+  border-left: 2px solid rgb(193, 114, 212);
+  color: black;
+}
+
+input {
+  margin-bottom: 0.5rem;
+}
+input:in-range {
+  border: 3px solid green;
+}
+
+input:out-of-range {
+  border: 2px solid red;
+}
+input:invalid {
+  border: 2px solid red;
+}
+input:valid {
+  border: 2px solid green;
+}
+
+input[type="checkbox"]:checked + label {
+  color: blue;
+}
+button {
+  background-color: #005300;
+  color: #c8d0d0;
+}
+button:hover {
+  background-color: rgb(4, 34, 4);
+}

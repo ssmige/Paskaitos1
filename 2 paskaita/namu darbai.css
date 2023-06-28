@@ -1,0 +1,20 @@
+.blue{
+    color: blue;
+}
+
+.green{
+    color: green;
+
+}
+a{
+    color: blue;
+}
+
+p{
+    line-height: 2;
+}
+.italic{
+    line-height: 1;
+    font-style: italic;
+}
+

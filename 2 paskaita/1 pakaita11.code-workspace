@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "../1 pakaita"
+	},
+	{
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "2 paskaita"
+  }
+}

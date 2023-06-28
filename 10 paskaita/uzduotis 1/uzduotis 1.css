@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+form {
+  border: 2px solid gray;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: right;
+  width: 500px;
+  margin: auto;
+}
+input:valid,
+input:empty {
+  border: 1px solid red;
+}
+input:valid {
+  border: 1px solid green;
+}
+input:focus,
+fieldset:focus {
+  outline: 1px solid yellow;
+}
+input:in-range {
+  border: 1px solid green;
+}
+input:out-of-range {
+  border: 1px solid red;
+}
+input,
+fieldset {
+  width: 200px;
+  margin-bottom: 1rem;
+}
+select {
+  width: 100px;
+  margin-right: 100px;
+  margin-bottom: 1rem;
+}
+
+fieldset {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+input[type="radio"] {
+  width: auto;
+}
+
+h1,
+h2,
+p {
+  text-align: left;
+}
+button {
+  margin: auto;
+  display: block;
+  background-color: green;
+  border-color: greenyellow;
+  border-radius: 30px;
+  padding: 0.5rem;
+  color: white;
+}
+button:hover {
+  background-color: darkgreen;
+  cursor: pointer;
+}
+.margin-label {
+  margin-right: 200px;
+}

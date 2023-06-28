@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="nd-8 paskaita.css" />
+  </head>
+  <body>
+    <div>
+      <h1><span>Futbolo</span> Rezultatų lentlė</h1>
+      <img
+        src="data:image/png;base64,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"
+        alt="logo"
+      />
+      <h5>Premier Lyga 2021/2022</h5>
+    </div>
+    <div>
+      <table class="center">
+        <tr>
+          <th class="eilute-1">#</th>
+          <th>KOMANDOS</th>
+          <th>ŽR</th>
+          <th>P</th>
+          <th>L</th>
+          <th>PR</th>
+          <th>Įvarčiai</th>
+          <th>Taškai</th>
+          <th>Forma</th>
+        </tr>
+        <tr>
+          <td>1.</td>
+          <td>Mančester City</td>
+          <td>38</td>
+          <td>29</td>
+          <td>6</td>
+          <td>3</td>
+          <td>99:26</td>
+          <td>93</td>
+          <td>
+            <button class="win">P</button>
+            <button class="draw">L</button>
+            <button class="win">P</button>
+            <button class="win">P</button>
+            <button class="win">P</button>
+          </td>
+        </tr>
+        <tr>
+          <td>2.</td>
+          <td>Liverpoll</td>
+          <td>38</td>
+          <td>28</td>
+          <td>8</td>
+          <td>2</td>
+          <td>94:26</td>
+          <td>92</td>
+          <td>
+            <button class="win">P</button>
+            <button class="win">P</button>
+            <button class="win">P</button>
+            <button class="draw">L</button>
+            <button class="win">P</button>
+          </td>
+        </tr>
+        <tr>
+          <td>3.</td>
+          <td>Chelsea</td>
+          <td>38</td>
+          <td>21</td>
+          <td>11</td>
+          <td>6</td>
+          <td>76:33</td>
+          <td>74</td>
+          <td>
+            <button class="win">P</button>
+            <button class="draw">L</button>
+            <button class="win">P</button>
+            <button class="draw">L</button>
+            <button class="loss">Pr</button>
+          </td>
+        </tr>
+        <tr>
+          <td>4.</td>
+          <td>Tottenham</td>
+          <td>38</td>
+          <td>22</td>
+          <td>5</td>
+          <td>11</td>
+          <td>69:40</td>
+          <td>71</td>
+          <td>
+            <button class="win">P</button>
+            <button class="win">P</button>
+            <button class="win">P</button>
+            <button class="draw">L</button>
+            <button class="win">P</button>
+          </td>
+        </tr>
+        <tr>
+          <td>5.</td>
+          <td>Arsenal</td>
+          <td>38</td>
+          <td>22</td>
+          <td>5</td>
+          <td>13</td>
+          <td>61:48</td>
+          <td>69</td>
+          <td>
+            <button class="win">P</button>
+            <button class="loss">Pr</button>
+            <button class="loss">Pr</button>
+            <button class="win">P</button>
+            <button class="win">P</button>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

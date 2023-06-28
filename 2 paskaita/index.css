@@ -1,0 +1,10 @@
+h1 {
+    color: aqua;
+}
+h2{color: blueviolet;}
+
+p,h1,h2 {color: brown;
+border: solid;
+
+line-height: 30px;
+}
