@@ -1,0 +1,42 @@
+.flex-container1 {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+
+  height: 900px;
+}
+.flex-container1 > div {
+  background-color: aqua;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+.flex-container > div:last-child {
+  align-self: flex-end;
+}
+
+.flex-container {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 900px;
+}
+.flex-container > div {
+  background-color: aqua;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+.flex-container > div:last-child {
+  align-self: flex-end;
+}
+.flex-container > div:nth-child(2) {
+  align-self: flex-start;
+}
+.flex-container > div:nth-child(3) {
+  align-self: baseline;
+  order: 2;
+}
