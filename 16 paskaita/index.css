@@ -1,0 +1,88 @@
+button {
+  width: 200px;
+  height: 110px;
+  font-size: 40px;
+  background-color: greenyellow;
+  border: none;
+  border-radius: 40%;
+  animation: pulse 2s infinite linear;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+div {
+  margin-bottom: 50px;
+}
+
+.test {
+  height: 200px;
+  width: 200px;
+  background-color: aqua;
+  transition: width 2s, height 3s;
+  /* transition: all 3s;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition-delay: 2s; */
+}
+
+.test:hover {
+  width: 400px;
+  height: 500px;
+  background-color: brown;
+}
+
+.animation-test {
+  height: 200px;
+  width: 200px;
+  background-color: black;
+  animation: changeColor 3s infinite linear;
+  animation-delay: 2s;
+}
+
+.animation-test:hover {
+  animation: none;
+}
+
+@keyframes changeColor {
+  0% {
+    background-color: blue;
+  }
+  25% {
+    background-color: red;
+  }
+  66% {
+    background-color: aqua;
+  }
+  100% {
+    background-color: blueviolet;
+  }
+}
+
+.transform-test {
+  height: 200px;
+  width: 200px;
+  background-color: black;
+  animation: spin 2s infinite linear;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+img {
+  animation: spin 3s infinite linear;
+}

@@ -1,0 +1,47 @@
+body {
+  font-size: 30px;
+  height: 200vh;
+}
+
+.relative {
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  left: 100px;
+  top: 150px;
+  background-color: aqua;
+  z-index: -1;
+}
+
+.fixed {
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  top: 150px;
+  left: 50px;
+}
+.sticky {
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  /* right: 90px; */
+  position: sticky;
+  top: 50px;
+  left: 300px;
+}
+.parent-posicion {
+  border: 1px solid black;
+  width: 1000px;
+  height: 1000px;
+  position: relative;
+}
+.absolute {
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 50px;
+  right: 250px;
+}

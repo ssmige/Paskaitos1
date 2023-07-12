@@ -1,0 +1,54 @@
+.contaner {
+  margin: 100px;
+}
+.circle {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin: 15px;
+  transform: rotate(500deg);
+}
+/* circle {
+  transform: rotate(500deg);
+} */
+.contaner :hover {
+  transform: translateX(200px);
+  transform: rotate(500deg), scale(2);
+}
+.circle1 {
+  background: paleturquoise;
+  transition: all 3s linear;
+  /* transform: rotate(500deg), scale(2); */
+}
+.circle2 {
+  background: salmon;
+  transition: all 1.5s ease;
+  transform: rotate(500deg);
+}
+.circle3 {
+  background: skyblue;
+  transition: all 1.5s ease;
+  transform: rotate(500deg);
+}
+.circle4 {
+  background: khaki;
+  transition: all 1.5s ease;
+  transform: rotate(500deg);
+}
+.circle5 {
+  background: mediumturquoise;
+  transition: all 1.5s ease;
+  transform: rotate(500deg);
+}
+.circle6 {
+  background: thistle;
+  transition: all 1.5s;
+  transform: rotate(500deg);
+}
+
+.circle {
+  animation: spin 5s;
+}
+
+@keyframes spin {
+}

@@ -1,0 +1,31 @@
+:root {
+  --blue-violet: #645cff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  align-items: center;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.primary-text-color {
+  color: var(--blue-violet);
+}
+
+header ul li i {
+  color: var(--blue-violet);
+  font-size: 20px;
+}
+.container {
+  width: 70%;
+  margin: 5rem auto;
+}
