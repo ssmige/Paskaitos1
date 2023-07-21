@@ -208,18 +208,21 @@ hr {
 .footer-info {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
   color: var(--color-navy);
-}
-.footer-info :first-child {
-  /* display: flex; */
-  /* justify-content: space-around; */
 }
 
 ul {
   list-style: none;
-  display: flex;
-  gap: 5rem;
+  gap: 6rem;
+}
+.footer-info ul li {
+  padding-top: 0.3em;
+  font-size: 0.7rem;
+}
+
+.footer-info ul li:first-child {
+  padding-top: 1rem;
 }
 .social-icons {
   color: var(--color-navy);
