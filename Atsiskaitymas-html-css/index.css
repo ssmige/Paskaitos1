@@ -14,15 +14,10 @@ html {
   --img-border-radius: 10px;
 }
 
-section {
-  margin-top: var(--margin-top);
-  margin-bottom: var(--margin-top);
-}
 .size {
   width: 80%;
   margin: auto;
   margin-top: var(--margin-top);
-  margin-bottom: var(--margin-top);
 }
 .navigation {
   display: flex;
@@ -32,17 +27,18 @@ section {
 .logo {
   width: 50px;
 }
-/* nav {
+.a-tag {
   display: flex;
-  justify-content: flex-end;
-} */
+  justify-content: space-between;
+  align-items: center;
+}
 
 nav a {
-  padding-left: 1rem;
   text-decoration: none;
   color: black;
   font-size: small;
   align-items: baseline;
+  padding-right: 2rem;
 }
 .button {
   border: 1px solid var(--color-gray);
@@ -80,20 +76,39 @@ p {
 
 .intro {
   display: flex;
+  padding-bottom: 8rem;
 }
 .images-group img {
   border-radius: var(--img-border-radius);
-  position: relative;
+  /* position: relative; */
 }
 .image-big {
   width: 400px;
+  position: relative;
 }
 .image-small {
   width: 300px;
+  position: absolute;
+  top: 350px;
+  right: 40px;
 }
 .dot-lines {
   width: 80px;
   height: 50px;
+  position: absolute;
+  top: 190px;
+  right: 90px;
+  mix-blend-mode: multiply;
+}
+.image-background {
+  width: 150px;
+  height: 380px;
+  border-radius: var(--img-border-radius);
+  background: var(--color-gradien);
+  position: absolute;
+  top: 110px;
+  right: 0px;
+  z-index: -1;
 }
 .text {
   padding-right: 4rem;
@@ -117,9 +132,15 @@ p {
 }
 .p-right {
   display: flex;
+  align-items: center;
+}
+.p-right > h3 {
+  padding-right: 2rem;
+  width: 100%;
 }
 .paslaugos {
   display: flex;
+  padding-bottom: var(--margin-top);
 }
 .grid-container {
   display: grid;
@@ -186,14 +207,22 @@ hr {
 }
 .cards {
   display: flex;
-  align-items: center;
-  gap: 2rem;
+  gap: 1rem;
 }
 .card {
   background-color: white;
-}
-.card-img {
   border-radius: var(--img-border-radius);
+}
+.card > p,
+.card > h4 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.card img {
+  width: 100%;
+  border-top-left-radius: var(--img-border-radius);
+  border-top-right-radius: var(--img-border-radius);
 }
 .get-started {
   text-align: center;
@@ -204,14 +233,19 @@ hr {
 .text-white {
   color: white;
   text-align: center;
+  padding-left: 12rem;
+  padding-right: 12rem;
 }
 .footer-info {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: flex-start;
   color: var(--color-navy);
 }
-
+.footer-info > img {
+  width: 50px;
+  margin-top: 2rem;
+}
 ul {
   list-style: none;
   gap: 6rem;
@@ -228,6 +262,7 @@ ul {
   color: var(--color-navy);
   display: flex;
   justify-content: space-between;
+  padding-bottom: 2rem;
 }
 .icon-black {
   font-size: 1rem;
