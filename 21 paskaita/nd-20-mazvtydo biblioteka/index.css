@@ -51,6 +51,7 @@ section h1 {
 footer {
   text-align: center;
   color: gray;
+  font-size: 1.5rem;
 }
 
 @media (min-width: 768px) {
