@@ -1,0 +1,164 @@
+html {
+  font-family: "Roboto", sans-serif;
+}
+:root {
+  --color-gray: rgb(206, 206, 206);
+  --color-gray-text: rgb(137, 136, 136);
+  --color-navy: rgb(39, 34, 77);
+  --color-gradien: linear-gradient(
+    to bottom right,
+    rgb(250, 241, 234),
+    rgb(218, 234, 239)
+  );
+  --margin-top: 3rem;
+  --img-border-radius: 20px;
+}
+body {
+  width: 80%;
+  margin: auto;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+section {
+  margin-top: var(--margin-top);
+  margin-bottom: var(--margin-top);
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 50px;
+}
+/* nav {
+  display: flex;
+  justify-content: flex-end;
+} */
+
+nav a {
+  padding-left: 1rem;
+  text-decoration: none;
+  color: black;
+  font-size: small;
+  align-items: baseline;
+}
+.button {
+  border: 1px solid var(--color-gray);
+  border-radius: 50px;
+  padding: 0.8rem 1.5rem;
+  background-color: white;
+}
+.button-color {
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 115, 0),
+    rgb(255, 64, 0)
+  );
+  color: white;
+  width: 100;
+  margin-top: 1rem;
+}
+
+h1,
+h3,
+h4 {
+  color: var(--color-navy);
+}
+h3 {
+  font-size: 1.5rem;
+}
+h4 {
+  font-size: 0.8rem;
+}
+p {
+  color: var(--color-gray-text);
+  font-size: smaller;
+  text-align: justify;
+}
+
+.intro {
+  /* display: flex; */
+  display: inline-flex;
+}
+.images-group img {
+  border-radius: var(--img-border-radius);
+  position: relative;
+}
+.image-big {
+  width: 400px;
+}
+.image-small {
+  width: 300px;
+}
+.dot-lines {
+  width: 150px;
+  height: 70px;
+}
+.text {
+  padding-right: 4rem;
+}
+.our-clients {
+  background-image: var(--color-gradien);
+  text-align: center;
+  border-radius: 10px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.logo-clients {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo-clients img {
+  max-width: 10%;
+  height: 100%;
+  mix-blend-mode: multiply;
+}
+.p-right {
+  display: flex;
+}
+.paslaugos {
+  display: flex;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(3, auto);
+  padding-left: 4rem;
+  column-gap: 2rem;
+  border-top: 1px solid var(--color-gray);
+}
+
+.typing {
+  width: auto;
+  height: auto;
+  border-radius: var(--img-border-radius);
+}
+
+.pencil {
+  grid-column: 1;
+  grid-row: 1;
+}
+.phone {
+  grid-column: 2;
+  grid-row: 1;
+}
+.gift {
+  grid-column: 1;
+  grid-row: 2;
+}
+.floppy {
+  grid-column: 2;
+  grid-row: 2;
+}
+.button-grid {
+  display: flex;
+  align-items: flex-end;
+}
+i {
+  font-size: 1.5rem;
+  background: -webkit-linear-gradient(rgb(255, 115, 0), rgb(255, 64, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
